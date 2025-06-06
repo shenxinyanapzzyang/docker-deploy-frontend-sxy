@@ -1,0 +1,7 @@
+version: '3.3'
+services:
+  frontend:
+    image: zcyyds1110/234-deploylab-frontend-sxy:latest
+    pull_policy: always
+    ports:
+      - "8086:80"
